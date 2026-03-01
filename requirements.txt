@@ -1,0 +1,43 @@
+# AeroTwin Edge - Smart Campus AI Platform
+# Production Dependencies
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Database
+sqlalchemy>=2.0.25
+
+# Machine Learning
+scikit-learn>=1.4.0
+numpy>=1.26.0
+statsmodels>=0.14.0
+
+# Edge Simulator Dependencies
+psutil>=5.9.0
+requests>=2.31.0
+
+# ONNX Runtime (for real inference timing)
+onnxruntime>=1.17.0
+onnx>=1.15.0
+
+# Dashboard Dependencies
+streamlit>=1.31.0
+streamlit-autorefresh>=1.0.1
+plotly>=5.18.0
+pydeck>=0.8.0
+pandas>=2.2.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Development
+python-multipart>=0.0.6
+
+# Optional: GPU Acceleration (uncomment if CUDA available)
+# onnxruntime-gpu>=1.17.0
+
+# Optional: PyTorch for tensor operations (uncomment if needed)
+# torch>=2.2.0
